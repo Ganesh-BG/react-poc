@@ -1,0 +1,42 @@
+.dbcontent {
+  .dbheader {
+    text-align: right;
+  }
+  hr {
+    margin-top: 1.5rem;
+    border-color: rgba(221, 221, 221, 0.575);
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    font-style: inherit;
+  }
+
+  h3 {
+    margin: 1.25rem 0;
+    color: #0e00cc;
+    font-size: 1.25rem;
+  }
+}
+
+.td_table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+  }
+
+  th {
+    background-color: #ccc;
+  }
+}
